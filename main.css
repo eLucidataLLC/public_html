@@ -23,7 +23,7 @@ main,
   /* background-color: rgba(255, 255, 255, 0.85) !important; */
 }
 .just-logo {
-  height: 3rem;
+  height: 2.75rem;
   margin-left: .5rem;
 }
 .logo {
@@ -31,8 +31,8 @@ main,
   margin-bottom: .5rem;
 }
 .navbar a {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 a {
   text-decoration: none !important;
@@ -56,7 +56,7 @@ a {
 #carousel .attribution {
   position: absolute;
   bottom: 0;
-  z-index: 50;
+  z-index: 250;
 }
 .featurette-divider {
   margin: 5rem 0;
@@ -75,7 +75,7 @@ a {
 .navbar a{
   color: #fff;
   text-shadow: 0.2rem 0.2rem 0.3rem rgba(16, 16, 32, 0.75);
-  z-index: 50 !important;
+  z-index: 150 !important;
 }
 #marketing_01 {
   background-image: url(img/parallax_00.jpg);
