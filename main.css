@@ -7,9 +7,11 @@ main,
   height: 100%;
   width: 100%;
 }
+
 .carousel {
   margin-bottom: 1rem;
 }
+
 .fill {
   background-position: center;
   -webkit-background-size: cover;
@@ -17,26 +19,32 @@ main,
   background-size: cover;
   -o-background-size: cover;
 }
+
 .navbar {
   background: url(img/bg_pattern.png) repeat !important;
   background-color: rgba(16, 16, 32, 0.35) !important;
   /* background-color: rgba(255, 255, 255, 0.85) !important; */
 }
+
 .just-logo {
   height: 2.75rem;
   margin-left: .5rem;
 }
+
 .logo {
   width: 11.5rem;
   margin-bottom: .5rem;
 }
+
 .navbar a {
   font-size: 1.25rem;
   font-weight: 400;
 }
+
 a {
   text-decoration: none !important;
 }
+
 .fill::after,
 .parallax::before {
   content: "";
@@ -47,44 +55,53 @@ a {
   right: 0;
   position: absolute;
 }
+
 #es-en {
   position: fixed;
   top: 3rem;
   right: 1%;
   z-index: 1500;
 }
+
 #carousel .attribution {
   position: absolute;
   bottom: 0;
   z-index: 250;
 }
+
 .featurette-divider {
   margin: 5rem 0;
 }
+
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.05rem;
 }
+
 #about {
   width: 100%;
   background: #f5f1ec;
 }
+
 .attribution,
 .message,
-.navbar a{
+.navbar a {
   color: #fff;
   text-shadow: 0.2rem 0.2rem 0.3rem rgba(16, 16, 32, 0.75);
   z-index: 150 !important;
 }
+
 #marketing_01 {
   background-image: url(img/parallax_00.jpg);
   position: relative;
 }
+
 #marketing_02 {
   background-image: url(img/parallax_02.jpg);
   color: #fff !important;
 }
+
 .parallax {
   position: relative;
   background-attachment: fixed;
@@ -92,23 +109,29 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .parallax small {
   position: relative;
 }
+
 #about .icon {
   font-size: 2rem;
 }
+
 #services .icon {
   font-size: 2.5rem;
   color: #aaa;
 }
+
 #services .card {
   min-height: 25rem;
 }
+
 #services .card-title,
 #about h3 {
   font-size: 2rem;
 }
+
 #services .icon,
 #services .card-title,
 #about h3,
@@ -116,41 +139,51 @@ footer h3 {
   font-weight: 300;
   line-height: 5rem;
 }
+
 .lang.collapsing {
   -webkit-transition: none;
   transition: none;
   display: none;
 }
+
 @media (min-width: 576px) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
   }
+
   .featurette-heading {
     font-size: 50px;
   }
 }
+
 @media (max-width: 575.98px) {
+
   .carousel-control-prev,
   .carousel-control-next,
   .carousel-indicators {
     display: none;
   }
+
   #services .card-title {
     font-size: 1.6rem;
   }
 }
+
 @media (min-width: 768px) {
   ul.navbar-nav {
     float: right;
   }
+
   .navbar-collapse {
     width: auto;
   }
+
   #carousel {
     height: 42rem;
   }
+
   .featurette-heading {
     margin-top: 7rem;
   }
